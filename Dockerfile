@@ -5,7 +5,7 @@ FROM jiftle/docker-for-dev:latest
 MAINTAINER jiftle "lixugood@126.com"
 
 # 替换镜像源为阿里云
-COPY files/sources.list /etc/apt/sources.list
+# COPY files/sources.list /etc/apt/sources.list
 
 # -------- 安装必要的软件工具 ----------
 RUN apt update && apt install -y \
